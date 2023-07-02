@@ -1,6 +1,6 @@
-Este é um anticheat feito para servidores de FiveM. Ele foi iniciado em 2021 para meu servidor. Esse anticheat era integrado ao núcleo principal do meu framework, ou seja, para transforma-lo em uma resource eu tive que extrair. Portanto, alguns bugs podem ocorrer e algumas adaptações podem ser necessárias, mas nada muito grande.
+Este é um anticheat feito para servidores de FiveM. Ele foi iniciado em 2021 para meu servidor. Esse anticheat era integrado ao núcleo principal do meu framework, ou seja, para transforma-lo em uma resource eu tive que extrair-lo. Portanto, alguns bugs podem ocorrer e algumas adaptações podem ser necessárias, mas nada muito grande.
 
-Obviamente será necessário a configuração de função de banimento, chamada de tvRP.askForBan. 
+Obviamente será necessário a configuração de função de banimento, chamada de tvRP.askForBan. Note que o arquivo yac.lua é criptografado. Isso deve ao fato de dificultar os dumpadores terem acesso ao seu client-side e descobrirem vulnerabilidades e verem o código fonte do anticheat. Aquele client nada mais faz do que receber todo o script que o server envia para ele. Isso mesmo! O server envia o client-side para ele mesmo, só procurar pela variável local clientYAC.
 
 Features:
 
