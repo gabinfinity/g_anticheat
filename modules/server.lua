@@ -40,7 +40,7 @@ CreateThread(function()
 				Citizen.Wait(3000)
 				print('Initializing loop check and waiting for player spawn')
 				while true do
-					if LocalPlayer.state.barbersync and not IsPauseMenuActive() then
+					if not IsPauseMenuActive() then
 					    if not ischecking then
 						    exports['screenshot-basic']:requestScreenshot(function(data)
 							    Citizen.Wait(5000)
@@ -115,14 +115,7 @@ CreateThread(function()
 							vRPserver.askForBan('Damage modifier')
 						end
 						if NetworkIsInSpectatorMode() then
-							if not inPaintball then
-							    vRPserver.askForBan('Spectate Mode')
-							end
-						end
-						if pedArmour > 0 and LocalPlayer.state.pedArmor ~= nil then
-							if pedArmour > LocalPlayer.state.pedArmor then
-								vRPserver.askForBan('Spawn Colete')
-							end
+							vRPserver.askForBan('Spectate Mode')
 						end
 						for k, v in pairs(textures) do
 							if HasStreamedTextureDictLoaded(v) then
