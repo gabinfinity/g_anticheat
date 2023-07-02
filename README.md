@@ -12,3 +12,21 @@ Features:
 - Detecção de explosão
 - Detecção de retirar player do veículo
 - Detecção de spam de particulas
+
+Adicione isso com seus webhooks em seu cfg:
+
+set YAC_clientBan ""
+set YAC_removeAllWeapons ""
+set YAC_removeWeapon ""
+set YAC_giveWeapon ""
+set YAC_fireActions ""
+set YAC_removeFromVehicle ""
+set YAC_spawnParticles ""
+set YAC_spawnProp ""
+
+Agradecimentos especiais ao Yume, que havia feito várias outras features que preferi deixar de fora, pois haveria varias dependencias necessárias para funcionar. Todas as features neste repositório, com exceção da engenharia de envio de client por parte do server (by Yume), foram de minha autoria.
+
+![image](https://github.com/gabinfinity/g_anticheat/assets/59806981/ebb2fe4f-b516-4a18-a113-f3a51c6e5d24)
+
+![image](https://github.com/gabinfinity/g_anticheat/assets/59806981/ff92f41b-72eb-436d-8844-e60ad3fd9927)
+
