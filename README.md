@@ -15,14 +15,14 @@ Features:
 
 Adicione isso com seus webhooks em seu cfg:
 
-set YAC_clientBan ""
-set YAC_removeAllWeapons ""
-set YAC_removeWeapon ""
-set YAC_giveWeapon ""
-set YAC_fireActions ""
-set YAC_removeFromVehicle ""
-set YAC_spawnParticles ""
-set YAC_spawnProp ""
+- set YAC_clientBan ""
+- set YAC_removeAllWeapons ""
+- set YAC_removeWeapon ""
+- set YAC_giveWeapon ""
+- set YAC_fireActions ""
+- set YAC_removeFromVehicle ""
+- set YAC_spawnParticles ""
+- set YAC_spawnProp ""
 
 Agradecimentos especiais ao Yume, que havia feito várias outras features que preferi deixar de fora, pois haveria varias dependencias necessárias para funcionar. Todas as features neste repositório, com exceção da engenharia de envio de client por parte do server (by Yume), foram de minha autoria.
 
